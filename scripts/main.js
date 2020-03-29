@@ -3,7 +3,7 @@ $(document).ready(function() {
 $(".site-footer").hide();
   
   var name = $("#inpName").val();
-  //alert(name);
+  alert(name);
 });
 $(window).on( "load", function() {
   $(".page-header").hide();
