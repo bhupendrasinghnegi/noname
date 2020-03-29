@@ -8,7 +8,7 @@
 <div id="msgDiv"></div>
 <div id="mydiv">
      <!--iframe id="myIframe" src="" width="100%" height="300"-->
- <iframe id="myIframe" src="" height="-webkit-fill-available" width="100%">
+ <iframe id="myIframe" src="" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%">
      </iframe>
  </div>
 
