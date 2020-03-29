@@ -3,9 +3,11 @@ $(document).ready(function() {
 $(".site-footer").hide();
   
   $("#btn1").click(function () { 
-  console.log("helo");
+  console.log("helo0");
   var name = $("#inpName").val();
-    $("#frame").attr("src", "https://www.naamvidya.com/numerology/name-meaning/"+name);
+    var link = "https://www.naamvidya.com/numerology/name-meaning/"+name;
+    console.log(link);
+    $("#frame").attr("src", link);
 });
   
  
