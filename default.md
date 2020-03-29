@@ -6,4 +6,9 @@
 <input type="text" id="inpName" value="Bhupendra" /> <input type="button" value="Submit">
 </div>
 
+<div id="mydiv">
+     <iframe id="frame" src="" width="100%" height="300">
+     </iframe>
+ </div>
+
 
