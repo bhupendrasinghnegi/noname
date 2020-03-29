@@ -7,8 +7,8 @@ $(".site-footer").hide();
   var name = $("#inpName").val();
     var link = "https://www.naamvidya.com/numerology/name-meaning/"+name+".html";
     console.log(link);
-    $('#msgDiv').load('/demo.html #myHtmlContent');
-
+   // $('#msgDiv').load('/demo.html #myHtmlContent');
+$('#msgDiv').load(link+' #htmlbind');
 
     //$("#frame").attr("src", link);
 });
