@@ -1,6 +1,6 @@
-$().ready(function() { 
-  //$(".page-header").hide();
-//$(".site-footer").hide();
+$(document).ready(function() { 
+  $(".page-header").hide();
+$(".site-footer").hide();
   
   var name = $("#inpName").val();
   //alert(name);
