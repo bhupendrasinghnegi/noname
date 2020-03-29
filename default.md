@@ -2,3 +2,5 @@
 <script src="/demo.js"></script>
  
 <div id="text"></div>
+
+document.getElementById("text").innerHTML = "Text added by JavaScript code";
