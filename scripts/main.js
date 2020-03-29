@@ -1,7 +1,7 @@
 $().ready(function() { 
   $(".page-header").hide();
   var name = $("#inpName").val();
-  alert(name);
+  //alert(name);
 });
 
 $().load(function() { 
