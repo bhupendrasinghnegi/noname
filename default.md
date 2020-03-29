@@ -5,7 +5,7 @@
  <label for="inpName">First Name: </label>
 <input type="text" id="inpName" value="Bhupendra" /> <input type="button" id="btn1" value="Submit">
 </div>
-
+<div id="msgDiv"></div>
 <div id="mydiv">
      <iframe id="frame" src="" width="100%" height="300">
      </iframe>
