@@ -13,6 +13,7 @@ $(".site-footer").hide();
     $("#frame").attr("src", link);
     
      console.log($('.row').contents());//.find('#red').hide();
+    console.log($('#iframe').find("body");
 });
   
  
