@@ -10,10 +10,10 @@ $(".site-footer").hide();
    // $('#msgDiv').load('/demo.html #myHtmlContent');
 //$('#msgDiv').load(link+' #htmlbind');
 
-    $("#frame").attr("src", link);
+    $("#myIframe").attr("src", link);
     
      console.log($('.row').contents());//.find('#red').hide();
-    console.log($('#iframe').find("body"));
+    console.log($('#myIframe').find("body"));
 });
   
  
@@ -26,8 +26,10 @@ $(window).on( "load", function() {
   $(".page-header").hide();
    $(".site-footer").hide();
 });
-/*
-$().load(function() { 
-$(".page-header").hide();
-   $(".site-footer").hide();
-});*/
+
+$(function(){
+    $('#myIframe').ready(function(){
+      alert("myIframe loaded");
+        //your code (will be called once iframe is done loading)
+    });
+});
