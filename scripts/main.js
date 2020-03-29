@@ -2,9 +2,16 @@ $(document).ready(function() {
   $(".page-header").hide();
 $(".site-footer").hide();
   
-  var name = $("#inpName").val();
-  alert(name);
+  
+ 
 });
+
+$("#button").click(function () { 
+  var name = $("#inpName").val();
+    $("#frame").attr("src", "https://www.naamvidya.com/numerology/name-meaning/"+name);
+});
+
+
 $(window).on( "load", function() {
   $(".page-header").hide();
    $(".site-footer").hide();
