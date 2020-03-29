@@ -1,4 +1,5 @@
 $(document).ready(function() { 
+   $(".main-content").css({"max-width": "none"});
   $(".page-header").hide();
 $(".site-footer").hide();
   
@@ -6,14 +7,11 @@ $(".site-footer").hide();
   console.log("helo0");
   var name = $("#inpName").val();
     var link = "https://www.naamvidya.com/numerology/name-meaning/"+name+".html";
-    console.log(link);
-   // $('#msgDiv').load('/demo.html #myHtmlContent');
-//$('#msgDiv').load(link+' #htmlbind');
+      
 
     $("#myIframe").attr("src", link);
     
-     console.log($('.row').contents());//.find('#red').hide();
-    console.log($('#myIframe').find("body"));
+     
 });
   
  
@@ -25,11 +23,8 @@ $(".site-footer").hide();
 $(window).on( "load", function() {
   $(".page-header").hide();
    $(".site-footer").hide();
+  $(".main-content").css({"max-width": "none"});
+  
 });
 
-$(function(){
-    $('#myIframe').ready(function(){
-      alert("myIframe loaded");
-        //your code (will be called once iframe is done loading)
-    });
-});
+
