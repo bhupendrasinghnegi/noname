@@ -1,4 +1,4 @@
 $().ready(function() { 
-  var name = $("#inpName").value();
+  var name = $("#inpName").val();
   alert(name);
 });
