@@ -7,6 +7,7 @@ $(".site-footer").hide();
 });
 
 $("#button").click(function () { 
+  console.log("helo");
   var name = $("#inpName").val();
     $("#frame").attr("src", "https://www.naamvidya.com/numerology/name-meaning/"+name);
 });
