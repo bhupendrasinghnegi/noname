@@ -1,6 +1,7 @@
 $(document).ready(function() { 
    $(".main-content").css({"max-width": "none"});
    $("body").css({"margin":"0px","padding":"0px","overflow":"hidden"});
+   $("section").css({"margin":"0px","padding":"0px","overflow":"hidden"});
   $(".page-header").hide();
 $(".site-footer").hide();
   
@@ -26,7 +27,7 @@ $(window).on( "load", function() {
    $(".site-footer").hide();
   $(".main-content").css({"max-width": "none"});
     $("body").css({"margin":"0px","padding":"0px","overflow":"hidden"});
-  
+   $("section").css({"margin":"0px","padding":"0px","overflow":"hidden"});
 });
 
 
