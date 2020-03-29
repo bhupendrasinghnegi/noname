@@ -3,7 +3,7 @@
  
 <div id="d1">
  <label for="inpName">First Name: </label>
-<input type="text" id="inpName" value="Bhupendra" /> <input type="button" value="Submit">
+<input type="text" id="inpName" value="Bhupendra" /> <input type="button" id="btn1" value="Submit">
 </div>
 
 <div id="mydiv">
