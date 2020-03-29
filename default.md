@@ -2,6 +2,7 @@
 <script src="../noname/scripts/main.js"></script>
  
 <div id="d1">
+ <label for="inpName">Name: </label>
 <input type="text" id="inpName" />
 </div>
 
