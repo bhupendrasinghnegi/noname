@@ -2,7 +2,7 @@
 <script src="../noname/scripts/main.js"></script>
  
 <div id="d1">
- <label for="inpName">Name: </label>
+ <label for="inpName">First Name: </label>
 <input type="text" id="inpName" value="Bhupendra" />
 </div>
 
