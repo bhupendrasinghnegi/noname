@@ -8,9 +8,11 @@ $(".site-footer").hide();
     var link = "https://www.naamvidya.com/numerology/name-meaning/"+name+".html";
     console.log(link);
    // $('#msgDiv').load('/demo.html #myHtmlContent');
-$('#msgDiv').load(link+' #htmlbind');
+//$('#msgDiv').load(link+' #htmlbind');
 
-    //$("#frame").attr("src", link);
+    $("#frame").attr("src", link);
+    
+     console.log($('.row').contents());//.find('#red').hide();
 });
   
  
